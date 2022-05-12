@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+.pokemonlist {
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 50px;
+  width: 200px;
+  margin: 10px;
+  background-color: #61dafb;
+}
+.pokemonlist:hover {
+  background-color: yellow;
+}
+.headermodal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headermodal img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.modalstyle {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+.pokemonstat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  flex-direction: row;
+}
+
+.pokemonstat div {
+  display: flex;
+
+  margin-right: 20px;
+}
